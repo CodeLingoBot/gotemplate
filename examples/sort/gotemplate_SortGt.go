@@ -220,7 +220,7 @@ func SortGt(data []string) {
 	quickSortGt(data, 0, n, maxDepth)
 }
 
-// IsSorted reports whether data is sorted.
+// IsSortGted reports whether data is sorted.
 func IsSortGted(data []string) bool {
 	n := len(data)
 	for i := n - 1; i > 0; i-- {

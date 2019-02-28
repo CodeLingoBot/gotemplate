@@ -200,7 +200,7 @@ func SortF(data []float64) {
 	quickSortF(data, 0, n, maxDepth)
 }
 
-// IsSorted reports whether data is sorted.
+// IsSortFed reports whether data is sorted.
 func IsSortFed(data []float64) bool {
 	n := len(data)
 	for i := n - 1; i > 0; i-- {
